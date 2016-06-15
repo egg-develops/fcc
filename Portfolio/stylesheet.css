@@ -1,0 +1,89 @@
+/*FCC Project Portfolio*/
+body {
+	background-color: #CCCCCC;
+	font-family: 'Raleway';
+}
+
+h1 {
+	font-size: 6em;
+	color: blue;
+	padding-top: 60px;
+}
+
+h2 {
+	font-size: 4em;
+	color: #000080;
+	text-align: center;
+}
+
+.container {
+	height: 
+	width: auto;
+}
+
+div {
+	border-radius: 15px;
+}
+
+.btn {
+}
+
+.btn:hover {
+	border-color: #FFF;
+	box-shadow: inset 100px 0 0 0 #4682B4;
+  background-color: #66CCFF;
+  -webkit-transition: all ease .7s;
+  -moz-transition: all ease .7s;
+  transition: all ease .7s;
+}
+
+#frontendButton:hover {
+	color: #000080;
+  box-shadow: inset 0 100px 0 0 #fff;
+  background-color: #66CCFF;
+  -webkit-transition: all ease 1.1s;
+  -moz-transition: all ease 1.1s;
+  transition: all ease 1.1s;
+}
+
+#backendButton:hover {
+	color: #000080;
+  box-shadow: inset 0 -100px 0 0 #fff;
+  background-color: #66CCFF;
+  -webkit-transition: all ease 1.1s;
+  -moz-transition: all ease 1.1s;
+  transition: all ease 1.1s;
+}
+
+a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+
+#intro {
+	height: 500px;
+	text-align: center;
+	background-image:  url("http://i1243.photobucket.com/albums/gg549/ermiasgiovanni/Shades-of-Blue_zpsrooctcnu.jpg");
+	background-size: 100%;
+}
+
+#skills {
+	float: left;
+	width: 100%;
+	margin-top: -20px;
+	background-color: #ADD8E6;
+}
+
+#projects {
+	height: 500px;
+	width: 100%;
+	background-color: white;
+}
+
+#contact {
+	margin-left: auto;
+	margin-right: auto;
+	height: 200px;
+	width: 800px;
+	background-color: gray;
+}
