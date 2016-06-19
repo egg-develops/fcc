@@ -12,45 +12,84 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
 <body>
-	<div class="container">
+	
+	<div class="container-fluid">
+		<nav><!--make responsive w/hamburger-->
+			<ul class="pull-right">
+				<li><a href="#">Skills</a></li>
+				<li><a href="#">Projects</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
 
-		<div id="intro">
+		<div class="intro text-center">
 			<h1>Ermias Giovanni</h1>
+			<h3 id="career">Web Developer</h3>
+
 			<div class="button row">
-				<btn type="button" class="btn btn-info"><a href="https://github.com/egg-develops" a target="_blank">GitHub</a></btn>
-				<btn type="button" class="btn btn-info"><a href="http://codepen.io/egrammer/" a target="_blank">CodePen</a></btn>
-				<btn type="button" class="btn btn-info"><a href="https://twitter.com/egg_dev" a target="_blank">Twitter</a></btn>
-				<btn type="button" class="btn btn-info"><a href="https://www.linkedin.com/in/ermias-giovanni-42221854?trk=nav_responsive_tab_profile" a target="_blank">LinkedIn</a></btn>
+				<btn type="button" class="btn btn-info btn-xs"><a href="https://github.com/egg-develops" a target="_blank">GitHub</a></btn>
+				<btn type="button" class="btn btn-info btn-xs"><a href="http://codepen.io/egrammer/" a target="_blank">CodePen</a></btn>
+				<btn type="button" class="btn btn-info btn-xs"><a href="https://twitter.com/egg_dev" a target="_blank">Twitter</a></btn>
+				<btn type="button" class="btn btn-info btn-xs"><a href="https://www.linkedin.com/in/ermias-giovanni-42221854?trk=nav_responsive_tab_profile" a target="_blank">LinkedIn</a></btn>
+				<btn type="button" class="btn btn-info btn-xs"><a href="https://github.com/egg-develops" a target="_blank">Blog</a></btn>
 			</div>
+
 		</div>
 
-		<div id="skills">
-			<h2>Skills</h2>
-				<btn type="button" class="btn btn-primary" id="frontendButton">Front End</btn>
-				<ul>
-					<li>HTML</li>
-					<li>CSS</li>
-					<li>Javascript</li>
-					<li>jQuery</li>
-					<li>Bootstrap</li>
-				</ul>
-				<btn type="button" class="btn btn-primary" id="backendButton">Back End</btn>
-				<ul>
-					<li>Python</li>
-					<li>Ruby</li>
-					<li>Node</li>
-				</ul>
+		<div id="skills"><!--drop down tech logos-->
+			<h3>Skills</h3>
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<btn type="button" class="btn btn-primary btn-s" id="frontendButton">Front End</btn>
+				</div>
+				<div class="col-md-6 text-center">
+					<btn type="button" class="btn btn-primary btn-s" id="backendButton">Back End</btn>
+				</div>
 			</div>
 		</div>
 
 		<div id="projects">
-			<h2>Projects</h2>
+			<!--Add project thumbnail gallery-->
+			<h3>Projects</h3>
 		</div>
+		
+		<div id="aboutMe">
+			<div class="row">
+				<div class="col-md-4 text-center">
+					<a href="#<!--blog-->"><img src="http://i1243.photobucket.com/albums/gg549/ermiasgiovanni/IMG_3443_zpsabimezpz.jpg"></a>
+				</div>
+				<div class="col-md-8 text-left">
+					<h3 class="text-center">About Me</h3>
+					<hr>
+					<p>I am a self-taught developer with a passion for both front and back end tech stacks.
+					</p>
+					<p>I consider Javascript my favorite language because it's the one that challenges me the most - the one I most likely will never figure all the way out. Nevertheless, I am able to make it do what I want - most of the times.
+					</p>
+					<p>Since Web Development happens to be my career as well as my hobby - the lines between work and play become blurred. This results in most of my time being spent on some type of computer programming. 
+					</p>
+					<p>My other interests include:</p>
+						<ul>
+							<li>Health & Fitness</li>
+							<li>Cooking</li>
+							<li>Tennis</li>
+							<li>Piano</li>
+							</ul>
+					<p>I currently live in the beautiful city of <a href="http://www.ville-geneve.ch/welcome-geneva/" a target='_blank'>Geneva, Switzerland</a> where I am eager to get involved in the tech community. 
+					</p>
+				</div>
+		</div>
+		</div>
+	</div>
 
 		<div id="contact">
-			<h2>Let's Connect</h2>
+			<h3>Let's Connect</h3>
+			<div class="contactbar">
+				<!--social media logo links-->
+			</div>
 		</div>
 
-	</div>
+
+	<script type="text/javascript" src="javascript/jquery.js"></script>
+
 </body>
-</html>
